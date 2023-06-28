@@ -25,7 +25,7 @@ public class App {
     }
 
     public void parseRestroData() throws IOException{
-        BufferedReader restroData=Files.newBufferedReader(Paths.get("C:\\Users\\sudhanshu\\IdeaProjects\\shardaswiggy\\data\\restro.csv"));
+        BufferedReader restroData=Files.newBufferedReader(Paths.get("C:\\Users\anand\\IdeaProjects\\shardaswiggy\\data\\restro.csv"));
         String lines=null;
         for(int restcnt=0;(lines=restroData.readLine())!=null;restcnt++){
             String[] data=lines.split(",");
@@ -50,7 +50,7 @@ public class App {
 
     }
     public void parseDishData() throws IOException{
-        BufferedReader dishData=Files.newBufferedReader(Paths.get("C:\\Users\\sudhanshu\\IdeaProjects\\shardaswiggy\\data\\dish.csv"));
+        BufferedReader dishData=Files.newBufferedReader(Paths.get("C:\\Users\\anand\\IdeaProjects\\shardaswiggy\\data\\dish.csv"));
         String lines=null;
         for(int dishcnt=0;(lines=dishData.readLine())!=null;dishcnt++){
             String[] data = lines.split(",");
@@ -59,7 +59,7 @@ public class App {
 
     }
     public void parseLocationData() throws IOException{
-        BufferedReader locationData=Files.newBufferedReader(Paths.get("C:\\Users\\sudhanshu\\IdeaProjects\\shardaswiggy\\data\\location.csv"));
+        BufferedReader locationData=Files.newBufferedReader(Paths.get("C:\\Users\\anand\\IdeaProjects\\shardaswiggy\\data\\location.csv"));
         String lines=null;
         for(int locationcnt=0;(lines=locationData.readLine())!=null;locationcnt++){
             String[] data = lines.split(",");
